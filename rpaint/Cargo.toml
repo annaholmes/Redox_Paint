@@ -1,0 +1,13 @@
+[package]
+name = "rpaint"
+version = "0.1.0"
+authors = ["annaholmes <holmesaa@hendrix.edu>"]
+
+[[bin]]
+name = "rpaint"
+path = "src/paintStruct.rs"
+
+[dependencies]
+orbtk = "0.2.18"
+orbclient = "0.3.3"
+orbimage = "0.1"
